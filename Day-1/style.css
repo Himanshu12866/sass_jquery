@@ -1,0 +1,25 @@
+.box {
+  padding: 20px;
+  background-color: rgba(255, 0, 0, 0.424);
+  margin: 10px;
+  border-radius: 20px;
+}
+.box h1 {
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  background-color: rgb(0, 255, 30);
+}
+.box p {
+  color: white;
+  background-color: rgba(0, 128, 0, 0.573);
+  padding: 10px;
+}
+.box button {
+  padding: 10px;
+  border: none;
+  background-color: darkgrey;
+  border-radius: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
