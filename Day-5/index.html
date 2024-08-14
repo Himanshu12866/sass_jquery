@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/jquery-ui/themes/base/all.css" />
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/jquery-ui/dist/jquery-ui.js"></script>
+    <script>
+      $(function () {
+        $("#faqs").accordion();
+        $("#login").dialog();
+        $("#dept").datepicker();
+      });
+    </script>
+    <style></style>
+  </head>
+  <body>
+    <input type="text" id="dept" placeholder="Departure" />
+    <div id="login" title="User Login">
+      <dl>
+        <dt>User Name</dt>
+        <dd><input type="text" /></dd>
+        <dt>Password</dt>
+        <dd><input type="password" /></dd>
+      </dl>
+      <button>Login</button>
+    </div>
+    <h1>Frequently Asked Questions</h1>
+    <div id="faqs">
+      <h2>What is Netflix</h2>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          quos asperiores, laudantium ipsam similique, doloribus at, repellendus
+          sapiente ex maiores recusandae ut illum. Nostrum nam maxime minus
+          quisquam laboriosam repudiandae? Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Sunt, necessitatibus sed velit, a
+          delectus est animi ipsa recusandae nam nisi sapiente asperiores
+          obcaecati eligendi accusamus mollitia iure vitae facilis nemo?
+        </p>
+      </div>
+      <h2>How much does Netflix cost?</h2>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+          nulla consequatur quis voluptate vitae ducimus impedit, ut soluta
+          illum magni numquam qui labore illo porro perferendis amet ex
+          voluptatem rem.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
