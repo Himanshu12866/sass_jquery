@@ -100,7 +100,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [Himanshu Mishra]
+Himanshu Mishra
 
 Project Link: https://github.com/Himanshu12866/sass_jquery
 
