@@ -1,4 +1,4 @@
 $(".container").hide(200);
-$("button").click(() => {
+$("button").on("click", () => {
     $(".container").toggle(200);
 })
