@@ -460,7 +460,7 @@ function tokenize(code: string): Token[] {
 function parse(tokens: Token[]): SyntaxTree {
   const syntaxTree: SyntaxTree[] = [];
   tokens.forEach((token) => {
-    syntaxTree.push( /* ... */ );
+    syntaxTree.push();
   });
 
   return syntaxTree;
