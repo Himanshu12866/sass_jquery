@@ -15,7 +15,7 @@ function tokenize(code: string): Token[] {
 
   REGEXES.forEach((regex) => {
     statements.forEach((statement) => {
-      tokens.push( /* ... */ );
+      tokens.push( );
     });
   });
 
