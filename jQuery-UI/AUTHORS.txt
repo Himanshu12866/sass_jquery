@@ -1,7 +1,7 @@
 Authors ordered by first contribution
 A list of current team members is available at https://jqueryui.com/about
 
-Paul Bakaus <paul.bakaus@gmail.com>
+
 Richard Worth <rdworth@gmail.com>
 Yehuda Katz <wycats@gmail.com>
 Sean Catchpole <sean@sunsean.com>
